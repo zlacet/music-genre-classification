@@ -1,9 +1,7 @@
 # 🎧 Music Genre Classification (CNN + Audio Processing)
-
     This project builds a deep learning model to classify music genres from raw audio using a Convolutional Neural Network     (CNN). The model is trained on the GTZAN dataset and compared against a Logistic Regression baseline.
 
 ## 📌 Project Overview
-
     Music genre classification is a classic problem in audio signal processing and machine learning. This project demonstrates how to:
 
     - Convert raw audio into Mel spectrograms
@@ -12,7 +10,6 @@
     - Compare deep learning vs traditional machine learning
 
 ## 🧠 Models Used
-
 ### 🔹 Convolutional Neural Network (Primary Model)
     - 3 convolutional layers with batch normalization
     - Max pooling for feature extraction
@@ -24,7 +21,6 @@
     - Provides a performance benchmark
 
 ## 📊 Results
-
 | Model                 | Test Accuracy |
 |-----------------------|--------------|
 | CNN (Primary Model)   | **51.66%**   |
@@ -36,20 +32,14 @@
     - Lower accuracy on overlapping genres (e.g., pop, rock)
     
 ## 📈 Visualizations
-
 ### Confusion Matrix
 ![Confusion Matrix](outputs/confusion_matrix.png)
-
 ### Training Loss
 ![Loss Curve](outputs/loss_curve.png)
-
 ### Accuracy Curve
 ![Accuracy Curve](outputs/accuracy_curve.png)
 
----
-
 ## ⚙️ Tech Stack
-
 - Python
 - PyTorch
 - Torchaudio
@@ -57,11 +47,7 @@
 - Scikit-learn
 - Matplotlib / Seaborn
 
----
-
 ## ▶️ How to Run
-
-### Quick Run
 ```bash
 python train.py
 python evaluate.py
